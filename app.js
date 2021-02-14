@@ -1,4 +1,4 @@
-const imagesArea = document.getElementById('images');
+const imagesArea = document.querySelector('.images');
 const gallery = document.querySelector('.gallery');
 const galleryHeader = document.querySelector('.gallery-header');
 const searchBtn = document.getElementById('search-btn');
