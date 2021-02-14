@@ -111,7 +111,7 @@ const createSlider = () => {
     }, duration);
   }
   else {
-    alert('Duration can not be negative....!!!');
+    alert('Invalid input detected....!!! Please try with positive values....!!!');
     document.getElementById('duration').value = '';
     imagesArea.style.display = 'block';
   }
